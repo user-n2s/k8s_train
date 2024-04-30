@@ -1,0 +1,23 @@
+VOTING APP. ASSIGNMENT txt file *some snapshots included in readme.md*
+
+Commands used: 
+  [] kubectl delete all --all;
+  [] cd $home
+  [] yum install git -y
+  [] git clone  https://github.com/ashishrpandey/example-voting-app
+  [] kubectl apply -f .
+
+Did observe that Nodeport is assigned for voting and result pods. (Screenshot included in README.md) 
+
+RESULT APP stopped working because it is the DB-POD that stores all the value(votes). So when DB-POD is stopped/deleted the RESULT APP wont function.
+
+To make the RESULT-POD work again, just have to re-deploy the DB-POD. 
+
+Some Jargons:
+  - Cluster
+  - Container
+  - Pod
+  - Service
+  - Kubelet
+  - Ingress
+  - Deployement
