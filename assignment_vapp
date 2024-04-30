@@ -1,5 +1,7 @@
 VOTING APP. ASSIGNMENT txt file *some snapshots included in readme.md*
 
+Deleting VOTE-POD had no impact apart from change in ID, a new POD with different ID was generated to replace the deleted one.
+
 Commands used: 
   [] kubectl delete all --all;
   [] cd $home
