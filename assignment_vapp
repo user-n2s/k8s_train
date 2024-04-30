@@ -8,6 +8,7 @@ Commands used:
   [] yum install git -y
   [] git clone  https://github.com/ashishrpandey/example-voting-app
   [] kubectl apply -f .
+  [] kubectl get svc
 
 Did observe that Nodeport is assigned for voting and result pods. (Screenshot included in README.md) 
 
